@@ -1,0 +1,38 @@
+.form-card {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.form-icon {
+    background-color: #837DFF; /* similar purple */
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.form-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.form-text small {
+    color: #666;
+    font-size: 12px;
+}
+
+.form-text strong {
+    font-size: 16px;
+    color: #222;
+}
